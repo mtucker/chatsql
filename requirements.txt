@@ -1,7 +1,7 @@
-streamlit
-openai
-langchain
-python-dotenv
-watchdog
-tiktoken
-llmonitor
+streamlit==1.26.0
+openai==0.28.0
+langchain==0.0.293
+python-dotenv==1.0.0
+watchdog==3.0.0
+tiktoken==0.5.1
+llmonitor==0.0.7
