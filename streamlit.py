@@ -28,7 +28,7 @@ class MODELS:
 
 
 llm = ChatOpenAI(temperature=0, model_name=MODELS.GPT4)
-db = SQLDatabase.from_uri(os.getenv("DATABASE_URL"))
+db = SQLDatabase.from_uri("sqlite:///Chinook.db")
 toolkit = SQLDatabaseToolkit(db=db, llm=llm)
 tools = toolkit.get_tools()
 
