@@ -22,5 +22,5 @@ poetry install
 Run the Streamlit app
 
 ```bash
-poetry run streamlit run streamlit.py
+poetry run streamlit run app.py
 ```
