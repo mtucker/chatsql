@@ -1,3 +1,14 @@
+---
+title: Chatsql
+emoji: 🗃️
+colorFrom: pink
+colorTo: blue
+sdk: streamlit
+sdk_version: 3.11.2
+app_file: streamlit.py
+pinned: false
+---
+
 This is an experiment in building a conversational agent that uses text-to-sql to ask questions of relational database.
 
 ## Up and running
